@@ -1,0 +1,79 @@
+h1{ 
+    color:palevioletred;
+    text-align: center;
+    background-color: pink;
+    font-size: 40px;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+p{
+    color:black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+}
+.menu li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav{
+    background-color: pink;
+    height: 60px;
+}
+.input_contacto{
+    width: 20%;
+    border: 1px palevioletred solid ;
+}
+.div_contacto{
+    margin-top: 5px;
+}
+.boton_contacto{
+    text-align: center;
+    margin-top: 5px;
+
+}
+form{
+    text-align: center;
+}
+.padre{
+    display: flex;
+    justify-content: space-around;
+}
+
+.padre div{
+    width: 50%;
+}
+
+.personajes{
+    width: 25%;
+    text-align: center;
+    border: grey 2px solid;
+    margin: 3%;
+}
+
+.personajes div{
+    text-align: left ;
+    
+}
+
+.todos_los_personajes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fotos{
+    width: 30%; 
+}
+.alto-carousel{
+    height: 500px;
+}
+.fotos-{
+    height: 200px;
+}
